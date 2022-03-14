@@ -60,7 +60,7 @@ EXPORT_QUERY = {
 
 #### **re_parser.py** - скрипт разбора сообщений при помощи регулярных выражений
 ```commandline
-python re_parser.py -db path_to_database_file -exp table_or_query_name --tbl
+python re_parser.py -db path_to_database_file --clr
 ```
 параметры запуска скрипта:
 - `-db` - *обязательный*, путь где будет создана или расположена SQLite-база с сообщениями;
